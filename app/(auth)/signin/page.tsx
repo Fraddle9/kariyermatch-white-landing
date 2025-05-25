@@ -10,7 +10,7 @@ export default function SignIn() {
     <>
       <>
         <div className="mb-10">
-          <h1 className="text-4xl font-bold">Sign in to your account</h1>
+          <h1 className="text-4xl font-bold">Hesabınıza giriş yapın</h1>
         </div>
         {/* Form */}
         <form>
@@ -26,7 +26,7 @@ export default function SignIn() {
                 id="email"
                 className="form-input w-full py-2"
                 type="email"
-                placeholder="corybarker@email.com"
+                placeholder="info@kariyermatch.com"
                 required
               />
             </div>
@@ -35,7 +35,7 @@ export default function SignIn() {
                 className="mb-1 block text-sm font-medium text-gray-700"
                 htmlFor="password"
               >
-                Password
+                Şifre
               </label>
               <input
                 id="password"
@@ -49,7 +49,7 @@ export default function SignIn() {
           </div>
           <div className="mt-6">
             <button className="btn w-full bg-linear-to-t from-blue-600 to-blue-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-sm hover:bg-[length:100%_150%]">
-              Sign In
+              Giriş Yap
             </button>
           </div>
         </form>
@@ -59,7 +59,7 @@ export default function SignIn() {
             className="text-sm text-gray-700 underline hover:no-underline"
             href="/reset-password"
           >
-            Forgot password
+            Şifrenizi mi unuttunuz?
           </Link>
         </div>
       </>

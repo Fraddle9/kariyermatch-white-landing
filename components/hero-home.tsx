@@ -70,8 +70,8 @@ export default function HeroHome() {
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              The website builder you're <br className="max-lg:hidden" />
-              looking for
+              CV’ni bırak, firmalar seni bulsun <br className="max-lg:hidden" />
+              
             </h1>
             <div className="mx-auto max-w-3xl">
               <p
@@ -79,8 +79,7 @@ export default function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay={300}
               >
-                Simple is a modern website builder powered by AI that changes
-                how companies create user interfaces together.
+                Yalnızca 30 dakikada profilini oluştur, CV'n otomatik hazırlansın. Tek başvuruyla onlarca şirketle eşleş, kariyer yolculuğunu kolaylaştır.
               </p>
               <div className="relative before:absolute before:inset-0 before:border-y before:[border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1]">
                 <div
@@ -93,7 +92,8 @@ export default function HeroHome() {
                     href="#0"
                   >
                     <span className="relative inline-flex items-center">
-                      Start Free Trial{" "}
+                      
+                        Ücretsiz Dene{" "}
                       <span className="ml-1 tracking-normal text-blue-300 transition-transform group-hover:translate-x-0.5">
                         -&gt;
                       </span>
@@ -103,7 +103,7 @@ export default function HeroHome() {
                     className="btn w-full bg-white text-gray-800 shadow-sm hover:bg-gray-50 sm:ml-4 sm:w-auto"
                     href="#0"
                   >
-                    Learn More
+                    Daha fazla bilgi edin
                   </a>
                 </div>
               </div>

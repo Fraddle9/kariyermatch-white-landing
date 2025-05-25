@@ -21,27 +21,23 @@ export default function LargeTestimonial() {
                   fill="#D1D5DB"
                 />
               </svg>
-              <Image
+              {/* <Image
                 className="rounded-full"
                 src={TestimonialImg}
                 width={48}
                 height={48}
                 alt="Large testimonial"
-              />
+              /> */}
             </div>
-            <p className="text-2xl font-bold text-gray-900">
-              “Simple has simplified my life in more ways than one. From
-              managing my sites to{" "}
-              <em className="italic text-gray-500">keeping track of tasks</em>,
-              it's become my go-to tool for everything.”
-            </p>
-            <div className="text-sm font-medium text-gray-500">
-              <span className="text-gray-700">Mary Sullivan</span>{" "}
-              <span className="text-gray-400">/</span>{" "}
-              <a className="text-blue-500" href="#0">
-                CTO at Microsoft
-              </a>
-            </div>
+            <h1
+              className="mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,--theme(--color-slate-300/.8),transparent)1] md:text-6xl"
+              data-aos="zoom-y-out"
+              data-aos-delay={150}
+            >
+              KariyerMatch ile süreci sadeleştir <br className="max-lg:hidden" />
+              
+            </h1>
+            
           </div>
         </div>
       </div>
