@@ -37,7 +37,13 @@ export default function LargeTestimonial() {
               KariyerMatch ile süreci sadeleştir <br className="max-lg:hidden" />
               
             </h1>
-            
+            <p
+                className="mb-8 text-lg text-gray-700"
+                data-aos="zoom-y-out"
+                data-aos-delay={300}
+              >
+                Tek bir platform üzerinden başvurularını kolayca yap, firmalar seni bulsun. Hızlı, etkili ve kullanıcı dostu deneyim seni bekliyor.
+              </p>
           </div>
         </div>
       </div>
